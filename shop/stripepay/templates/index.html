@@ -3,13 +3,13 @@
 
 <html>
   <head>
-    <title>Buy {{item.name}}</title>
+    <title>Купить {{item.name}}</title>
   </head>
   <body>
     <h1>{{item.name}}</h1>
-    <p>Описание {{item.name}}</p>
+    <p>Описание товара:</p>
     <p>{{ item.description }}</p>
-    <button id="buy-button">Buy</button>
+    <button id="buy-button">Buy!</button>
     <script src="https://js.stripe.com/v3/"></script>
     <script type="text/javascript">
         const itemId = '{{item.id}}'
