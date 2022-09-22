@@ -1,0 +1,1 @@
+web: cd shop && gunicorn shop.wsgi 
