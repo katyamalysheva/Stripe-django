@@ -8,4 +8,4 @@ App has following API views:
 <ul> GET /buy/<int:id> - makes a stripe create session for item </ul>
 
 
-Deployed on heroku with enviroment variables - https://kates-stripe-shop.herokuapp.com/item/
+Deployed on heroku with enviroment variables - https://kates-stripe-shop.herokuapp.com/
