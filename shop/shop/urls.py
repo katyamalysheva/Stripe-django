@@ -16,7 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.views.generic.base import RedirectView
-
 from stripepay.views import (CheckoutCreateView, ItemDetailView, ItemListView,
                              cancel, success)
 

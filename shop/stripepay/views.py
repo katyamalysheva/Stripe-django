@@ -7,7 +7,6 @@ from rest_framework import generics
 from rest_framework.renderers import TemplateHTMLRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
 from stripepay.models import Item
 from stripepay.serializers import ItemSerializer
 

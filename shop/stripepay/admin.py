@@ -1,5 +1,4 @@
 from django.contrib import admin
-
 from stripepay.models import Item
 
 # Register your models here.
