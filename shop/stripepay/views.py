@@ -22,8 +22,8 @@ class CheckoutCreateView(generics.RetrieveAPIView):
         stripe.api_key = settings.STRIPE_SECRET_KEY
 
         session = stripe.checkout.Session.create(
-            success_url="http://127.0.0.1:8000/success",
-            cancel_url="http://127.0.0.1:8000/cancel",
+            success_url="http://kates-stripe-shop.herokuapp.com/success",
+            cancel_url="http://kates-stripe-shop.herokuapp.com/cancel",
             mode="payment",
             line_items=[{"price": item.price_stripe, "quantity": 1}],
         )
